@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D37BB10CB48C0B8BE5A5BD2 /* Pods_OrnekFirebaseProjesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0B0C8E1A675187E8F64AFE /* Pods_OrnekFirebaseProjesi.framework */; };
 		C33E6A6929D0D58D008C627E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E6A6829D0D58D008C627E /* AppDelegate.swift */; };
 		C33E6A6B29D0D58D008C627E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E6A6A29D0D58D008C627E /* SceneDelegate.swift */; };
 		C33E6A6D29D0D58D008C627E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E6A6C29D0D58D008C627E /* ViewController.swift */; };
 		C33E6A7029D0D58D008C627E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33E6A6E29D0D58D008C627E /* Main.storyboard */; };
 		C33E6A7229D0D58F008C627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33E6A7129D0D58F008C627E /* Assets.xcassets */; };
 		C33E6A7529D0D58F008C627E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33E6A7329D0D58F008C627E /* LaunchScreen.storyboard */; };
+		C33E6A7F29D0D947008C627E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33E6A7E29D0D947008C627E /* GoogleService-Info.plist */; };
+		C358039429D2197C004A260B /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358039329D2197C004A260B /* FeedTableViewCell.swift */; };
+		C358039829D21F53004A260B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358039729D21F53004A260B /* Post.swift */; };
+		C37EBF3C29D0DCFD00F412EF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EBF3B29D0DCFD00F412EF /* FeedViewController.swift */; };
+		C37EBF3E29D0DD0800F412EF /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EBF3D29D0DD0800F412EF /* UploadViewController.swift */; };
+		C37EBF4029D0DD1600F412EF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EBF3F29D0DD1600F412EF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0B0C8E1A675187E8F64AFE /* Pods_OrnekFirebaseProjesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrnekFirebaseProjesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCBCA0624741A65D6D47D82 /* Pods-OrnekFirebaseProjesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrnekFirebaseProjesi.debug.xcconfig"; path = "Target Support Files/Pods-OrnekFirebaseProjesi/Pods-OrnekFirebaseProjesi.debug.xcconfig"; sourceTree = "<group>"; };
 		C33E6A6529D0D58D008C627E /* OrnekFirebaseProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrnekFirebaseProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33E6A6829D0D58D008C627E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33E6A6A29D0D58D008C627E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		C33E6A7129D0D58F008C627E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33E6A7429D0D58F008C627E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33E6A7629D0D58F008C627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33E6A7E29D0D947008C627E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C358039329D2197C004A260B /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		C358039729D21F53004A260B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C37EBF3B29D0DCFD00F412EF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C37EBF3D29D0DD0800F412EF /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		C37EBF3F29D0DD1600F412EF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FDD181210A7BF5A4E04F2A31 /* Pods-OrnekFirebaseProjesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrnekFirebaseProjesi.release.xcconfig"; path = "Target Support Files/Pods-OrnekFirebaseProjesi/Pods-OrnekFirebaseProjesi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D37BB10CB48C0B8BE5A5BD2 /* Pods_OrnekFirebaseProjesi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59D0A883624B64EE04B33A23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FCBCA0624741A65D6D47D82 /* Pods-OrnekFirebaseProjesi.debug.xcconfig */,
+				FDD181210A7BF5A4E04F2A31 /* Pods-OrnekFirebaseProjesi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		957FDB266D7B6424139C8029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0B0C8E1A675187E8F64AFE /* Pods_OrnekFirebaseProjesi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C33E6A5C29D0D58D008C627E = {
 			isa = PBXGroup;
 			children = (
 				C33E6A6729D0D58D008C627E /* OrnekFirebaseProjesi */,
 				C33E6A6629D0D58D008C627E /* Products */,
+				59D0A883624B64EE04B33A23 /* Pods */,
+				957FDB266D7B6424139C8029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +92,19 @@
 		C33E6A6729D0D58D008C627E /* OrnekFirebaseProjesi */ = {
 			isa = PBXGroup;
 			children = (
+				C33E6A7E29D0D947008C627E /* GoogleService-Info.plist */,
 				C33E6A6829D0D58D008C627E /* AppDelegate.swift */,
 				C33E6A6A29D0D58D008C627E /* SceneDelegate.swift */,
+				C37EBF3B29D0DCFD00F412EF /* FeedViewController.swift */,
+				C37EBF3D29D0DD0800F412EF /* UploadViewController.swift */,
+				C37EBF3F29D0DD1600F412EF /* SettingsViewController.swift */,
 				C33E6A6C29D0D58D008C627E /* ViewController.swift */,
+				C358039329D2197C004A260B /* FeedTableViewCell.swift */,
 				C33E6A6E29D0D58D008C627E /* Main.storyboard */,
 				C33E6A7129D0D58F008C627E /* Assets.xcassets */,
 				C33E6A7329D0D58F008C627E /* LaunchScreen.storyboard */,
 				C33E6A7629D0D58F008C627E /* Info.plist */,
+				C358039729D21F53004A260B /* Post.swift */,
 			);
 			path = OrnekFirebaseProjesi;
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C33E6A7929D0D58F008C627E /* Build configuration list for PBXNativeTarget "OrnekFirebaseProjesi" */;
 			buildPhases = (
+				5AA36EE042A2AEF909B1393E /* [CP] Check Pods Manifest.lock */,
 				C33E6A6129D0D58D008C627E /* Sources */,
 				C33E6A6229D0D58D008C627E /* Frameworks */,
 				C33E6A6329D0D58D008C627E /* Resources */,
+				B61BF208A73A88331EEF4876 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33E6A7529D0D58F008C627E /* LaunchScreen.storyboard in Resources */,
+				C33E6A7F29D0D947008C627E /* GoogleService-Info.plist in Resources */,
 				C33E6A7229D0D58F008C627E /* Assets.xcassets in Resources */,
 				C33E6A7029D0D58D008C627E /* Main.storyboard in Resources */,
 			);
@@ -133,14 +178,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AA36EE042A2AEF909B1393E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrnekFirebaseProjesi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61BF208A73A88331EEF4876 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrnekFirebaseProjesi/Pods-OrnekFirebaseProjesi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrnekFirebaseProjesi/Pods-OrnekFirebaseProjesi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrnekFirebaseProjesi/Pods-OrnekFirebaseProjesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C33E6A6129D0D58D008C627E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C33E6A6D29D0D58D008C627E /* ViewController.swift in Sources */,
+				C37EBF3E29D0DD0800F412EF /* UploadViewController.swift in Sources */,
+				C358039429D2197C004A260B /* FeedTableViewCell.swift in Sources */,
+				C358039829D21F53004A260B /* Post.swift in Sources */,
 				C33E6A6929D0D58D008C627E /* AppDelegate.swift in Sources */,
+				C37EBF3C29D0DCFD00F412EF /* FeedViewController.swift in Sources */,
 				C33E6A6B29D0D58D008C627E /* SceneDelegate.swift in Sources */,
+				C37EBF4029D0DD1600F412EF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		C33E6A7A29D0D58F008C627E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCBCA0624741A65D6D47D82 /* Pods-OrnekFirebaseProjesi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +403,7 @@
 		};
 		C33E6A7B29D0D58F008C627E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD181210A7BF5A4E04F2A31 /* Pods-OrnekFirebaseProjesi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
